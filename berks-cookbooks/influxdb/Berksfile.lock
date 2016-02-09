@@ -1,0 +1,41 @@
+DEPENDENCIES
+  influxdb
+    path: .
+    metadata: true
+  influxdb-test
+    path: test/fixtures/cookbooks/influxdb-test
+  netstat
+
+GRAPH
+  apt (2.9.2)
+  ark (1.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+    windows (>= 0.0.0)
+  build-essential (2.2.4)
+  chef_handler (1.2.0)
+  compat_resource (12.5.0)
+  homebrew (2.0.5)
+    build-essential (>= 2.1.2)
+  influxdb (4.1.0)
+    apt (~> 2.7)
+    chef_handler (>= 0.0.0)
+    compat_resource (= 12.5.0)
+    nodejs (~> 2.4)
+    yum (~> 3.6)
+  influxdb-test (0.0.1)
+    influxdb (>= 0.0.0)
+  netstat (0.1.0)
+  nodejs (2.4.4)
+    apt (>= 0.0.0)
+    ark (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    homebrew (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  seven_zip (1.0.4)
+    windows (>= 1.2.2)
+  windows (1.39.1)
+    chef_handler (>= 0.0.0)
+  yum (3.10.0)
+  yum-epel (0.6.5)
+    yum (~> 3.2)
